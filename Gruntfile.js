@@ -14,20 +14,15 @@ module.exports = function(grunt) {
                     loaders: [
                         {
                             test: /\.js$/,
-                            loader: "babel-loader",
-                            query: {
-                                stage: 1,
-                                optional: [
-                                    "es7.decorators"
-                                ]
-                            }
+                            exclude: /node_modules/,
+                            loader: "babel-loader"
                         }
                     ]
                 },
-                watch: false,
-                keepalive: false,
+                watch: true,
+                keepalive: true,
                 inline: true,
-                failOnError: true
+                failOnError: false
             }
         }
     });

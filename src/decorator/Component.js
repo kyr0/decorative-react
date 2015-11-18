@@ -1,4 +1,4 @@
-import Decorator from '../../decorative/src/Decorator';
+import { Decorator } from 'decorative';
 import React from 'react';
 
 /**

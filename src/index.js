@@ -1,4 +1,3 @@
-import Viewport from './Viewport';
 import Style from './decorator/Style';
 
 import ComponentDecorator from './decorator/Component';
@@ -14,7 +13,6 @@ import EventHandlerDecorator from './decorator/EventHandler';
 var EventHandler = new EventHandlerDecorator().getDecorator();
 
 export default {
-    Viewport,
     Component,
     Style,
     Template,

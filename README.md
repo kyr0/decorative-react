@@ -43,7 +43,7 @@ Just install this package like this:
 
     npm install decorative-react --save
  
-for your convenience it brings you the whole ```decorative``` lib as a dependency.
+for your convenience it brings you the whole ```decorative``` lib as a dependency.    
     
 ### @Component()
 
